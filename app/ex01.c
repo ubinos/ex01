@@ -6,7 +6,7 @@
 
 int appmain(int argc, char * argv[]) {
 	for (int i = 0;; i++) {
-		printf("hello world (%d)\r\n", i);
+		printf("hello world (%d)\n", i);
 		bsp_busywaitms(1000);
 	}
 
